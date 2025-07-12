@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>720</width>
+    <height>480</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>480</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1080</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="addline">
+        <property name="text">
+         <string>Add Line</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="addcolumn">
+        <property name="text">
+         <string>Add Column</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="changeinfo">
+        <property name="text">
+         <string>Change Info</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="0">
+     <widget class="QTableWidget" name="tableWidget">
+      <attribute name="horizontalHeaderVisible">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderShowSortIndicator" stdset="0">
+       <bool>false</bool>
+      </attribute>
+      <attribute name="horizontalHeaderStretchLastSection">
+       <bool>true</bool>
+      </attribute>
+      <attribute name="verticalHeaderVisible">
+       <bool>true</bool>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>N° 1</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>Matricule</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Noms</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Prenoms</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Date de naissance</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>lieu de Naissance</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Nationalité</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Adresse email</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>N° de Telephone</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Niveau de Langue</string>
+       </property>
+      </column>
+      <item row="0" column="0">
+       <property name="text">
+        <string>0065238977</string>
+       </property>
+      </item>
+      <item row="0" column="1">
+       <property name="text">
+        <string>Deffo Tchatue</string>
+       </property>
+      </item>
+      <item row="0" column="2">
+       <property name="text">
+        <string>Frederic</string>
+       </property>
+      </item>
+      <item row="0" column="3">
+       <property name="text">
+        <string>03/09/2003</string>
+       </property>
+      </item>
+      <item row="0" column="4">
+       <property name="text">
+        <string>Bana</string>
+       </property>
+      </item>
+      <item row="0" column="5">
+       <property name="text">
+        <string>Camerounaise</string>
+       </property>
+      </item>
+      <item row="0" column="6">
+       <property name="text">
+        <string>frederic45@icloud.com</string>
+       </property>
+      </item>
+      <item row="0" column="7">
+       <property name="text">
+        <string>77 346 09 21</string>
+       </property>
+      </item>
+      <item row="0" column="8">
+       <property name="text">
+        <string>B1</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>720</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
